@@ -1359,7 +1359,13 @@ p {
 }
 
 .contato-item a {
-    transition: color var(--transicao);
+
+    display: block;
+    color: var(--off-white);
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color .3s ease;
+
 }
 
 .contato-item a:hover {
